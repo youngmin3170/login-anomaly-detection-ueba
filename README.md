@@ -31,9 +31,9 @@ Detect suspicious login behavior consistent with:
 6. **Validation**: compare ATO enrichment in top-ranked alerts vs baseline rate
 
 ## Results
-- Baseline ATO rate (all user-days): ~[baseline_rate]
-- ATO rate in top 0.1% anomalies: ~[top_rate]
-- Lift: ~[lift]× more ATOs concentrated in top 0.1% compared to baseline
+- Baseline ATO rate (all user-days): ~0.00115%
+- ATO rate in top 0.1% anomalous user-days: ~0.0248%
+- Lift: ~21.6× more account takeovers concentrated in the top 0.1% alerts compared to baseline
 
 ## Example Alert Explanation
 - “login volume far above baseline; multiple new IP addresses; new devices observed”
